@@ -1,0 +1,27 @@
+/* 共有的樣式 */
+
+.clear-fix::after, .clear-fix::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body {
+  font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+  color: #333;
+  min-width: 1226px;
+}
+
+/* 設定一個class，用來表示中間容器的寬度 */
+
+.w {
+  width: 1226px;
+  margin: 0 auto;
+}
+
+/* 去除a的下劃線 */
+
+a {
+  text-decoration: none;
+  color: #333;
+}
